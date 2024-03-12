@@ -3,7 +3,7 @@ pragma solidity ^0.8.4;
 
 import "./HoldersRewardsDistributor.sol";
 import "../utils/Transfers.sol";
-import "@lazy-sol/access-control-upgradeable/contracts/InitializableAccessControl.sol";
+import "@ai-protocol/access-control-upgradeable/contracts/InitializableAccessControl.sol";
 
 /**
  * @title Bonding Curve Holder Reward Distributor

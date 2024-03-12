@@ -2,7 +2,7 @@
 pragma solidity ^0.8.4;
 
 import "../bonding_curves/HoldersRewardsDistributor.sol";
-import "@lazy-sol/access-control-upgradeable/contracts/InitializableAccessControl.sol";
+import "@ai-protocol/access-control-upgradeable/contracts/InitializableAccessControl.sol";
 
 
 contract MaliciousHoldersRewardsDistributor is HoldersRewardsDistributor, InitializableAccessControl {
